@@ -1,7 +1,8 @@
 // BGY-SimpQueue/Main.java
- 
+// Git
+
 public class Main {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         MyQueue qS = new MyQueue();
         for (double d = 0.5; d < 5; d += 1)
             qS.enqueue("" + d);
