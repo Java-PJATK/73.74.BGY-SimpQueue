@@ -20,13 +20,14 @@ public class Main {
  * This concept is known as FIFO (first in, first out). For instance, if we
  * enqueue elements A, B, and C in that order, three consecutive dequeues will
  * yield A, B, and finally C.
+ * 
  * A straightforward implementation of a queue is based on a singly linked list.
  * We always add elements at the end and remove them from the beginning. To
  * achieve this efficiently, we maintain a reference to the last element
  * (referred to as the tail).
+ * 
  * Let’s consider an example. The Node class is now a nested class within the
  * MyQueue class. It is declared as a static and private class, making it
  * invisible to the user but usable within the enclosing MyQueue class (similar
  * to previous examples).
- * 
  */
